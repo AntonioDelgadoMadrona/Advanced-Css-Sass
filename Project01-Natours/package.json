@@ -1,14 +1,14 @@
 {
-  "name": "project01-natours",
+  "name": "natours",
   "version": "1.0.0",
-  "description": "Landing page dor natours",
+  "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "start": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "author": "",
+  "author": "Antonio Delgado",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.5.3"
   }
 }
